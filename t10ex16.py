@@ -1,8 +1,7 @@
-def calcularLongitud():
-    llista = input("Escriu un texte o llista: ")
+def calcularLongitud(llista):
     long = 0
-    for i in llista:
+    for elements in llista:
         long = long + 1
-    print(f"La longitud del texte o llista és de {long} caràcters")
+    print(f"La longitud de la llista és de {long} elements")
 
-calcularLongitud()
+calcularLongitud(["Juan", "David", "Pablo", "Pep", "Eneko", "Aris"])
