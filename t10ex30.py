@@ -7,16 +7,13 @@ llista = [
 ]
 anyActual = 2024
 
-def edat(elements, anyActual):
-    edat = anyActual - elements[1]
-    return edat
-
-def calcular_anys(llista, anyActual):
-    llista.insert(0, ["Nom", "Data Naixement", "Edat"])
-    print(f"Any actual:", anyActual)
-    print(llista[0])
-    for elements in llista[1:]:
-        elements.insert(2, edat(elements, anyActual))
-        print(elements)
+def calcular_any(llista, anyActual):
+    print("_" * 27)
+    print(f"Any actual: {anyActual}")
+    print(f"{"Nom":3} {"|"} {"Data Naixement":13} {"|"} {"Edat"}")
+    print("-" *27)
+    for nom, anyNaixement in llista:
+        edat = anyActual - anyNaixement
+        print(f"{nom:3}{anyNaixement:10}{edat:11}")
         
-calcular_anys(llista, anyActual)
+calcular_any(llista, anyActual)
