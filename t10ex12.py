@@ -30,9 +30,8 @@ def dividir():
     b = int(input("Introdueixi el segon element: "))
     c = a / b
     print("El resultat de dividir {} menys {} és {}".format(a, b, c))
-a = True
 
-while a:
+while True:
     op = menu()
     match op:
         case 1:
@@ -44,5 +43,5 @@ while a:
         case 4:
             dividir()
         case 5:
-            a = False
             print("Adeu, gracies per haver utilitzat aquest programa")
+            break
