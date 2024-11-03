@@ -5,4 +5,4 @@ def noms_que_comencen_per(noms, char):
             llistaNoms.append(i)
     return llistaNoms
 
-print(noms_que_comencen_per(["Joan", "Iker", "Pedro", "Javier"], "j"))
+print(noms_que_comencen_per(["Antonio", "Joan", "Pablo", "Aris", "Pep"], "a"))
