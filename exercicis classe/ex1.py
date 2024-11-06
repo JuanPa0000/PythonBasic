@@ -25,3 +25,11 @@ if "a" in b:
 else:
     print("a no hi és")
 
+lb = [1, "hola", (3, 4), (1, 2)]
+print(lb[2])
+
+lb.append([100, 200])
+print(lb)
+
+lb.extend([100, 200])
+print(lb)
