@@ -25,11 +25,15 @@ if "a" in b:
 else:
     print("a no hi és")
 
+
+#llistes mutables-inmutables
 lb = [1, "hola", (3, 4), (1, 2)]
 print(lb[2])
 
+#modificar una llista, en aquest cas estic afegint
 lb.append([100, 200])
 print(lb)
-
+#en aquest cas estic afegint més de un element a la llista
 lb.extend([100, 200])
 print(lb)
+
