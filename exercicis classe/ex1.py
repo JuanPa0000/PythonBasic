@@ -24,3 +24,4 @@ if "a" in b:
     print(f"a és dins l'string {b}")
 else:
     print("a no hi és")
+
