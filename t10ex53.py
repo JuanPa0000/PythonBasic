@@ -1,2 +1,4 @@
-a = "hola Me llamo Juan Pablo"
-print(a.strip())
+a = 10
+for i in range(10):
+    print(a)
+    a = a -1
